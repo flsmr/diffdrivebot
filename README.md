@@ -2,6 +2,10 @@
 mobile robot with gripper, cam, and lidar
 
 ## USB Motor Connection
+Install pyserial for communication with Arduino via USB
+```
+pip3 install pyserial
+```
 If usb port does not get shown using
 ```
 sudo dmesg | grep tty
