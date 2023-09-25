@@ -19,7 +19,8 @@ setup(
     license='Apache Licence 2.0',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-        ],
+            'console_scripts': [
+                    'listener = py_usb_motor_interface.py_usb_motor_interface:main',
+            ],
     },
 )
